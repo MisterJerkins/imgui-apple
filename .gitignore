@@ -1,0 +1,18 @@
+# build output and editor state
+/build/
+/out/
+/.vs/
+/.vscode/
+/.idea/
+CMakeUserPresets.json
+
+# a local Dear ImGui checkout, CMake fetches one otherwise
+/imgui/
+
+# Apple's fonts and pictures for tools/bake.py, never commit these
+/reference/
+
+# python
+__pycache__/
+*.pyc
+.venv/
